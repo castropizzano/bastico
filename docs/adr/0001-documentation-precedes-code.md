@@ -21,3 +21,9 @@ Fica determinado que **a documentação técnica antecede a implementação de c
 ## Consequências
 * **Positivas:** Garante consistência terminológica absoluta entre o modelo mental e a implementação física; impede o desperdício de esforço em código fora de escopo.
 * **Negativas:** Exige maior disciplina técnica e desacelera o impulso inicial de programar sem validação conceitual.
+
+---
+
+```text
+BɅSTICOᴮᵀ // DOC_REF: docs/adr/0001-documentation-precedes-code.md // VERSION: 1.0.0 // STATUS: STABLE
+```
