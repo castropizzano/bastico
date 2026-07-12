@@ -5,11 +5,11 @@
 
 ---
 
-## 👁️ Visão Geral
+## Visão Geral
 
-O **BɅSTICOᴮᵀ** nasce da convicção de que conhecimento não se reduz a dados armazenados. O conhecimento emerge quando as relações entre artefatos digitais tornam-se perceptíveis, formando estruturas coerentes capazes de serem observadas, interpretadas e continuamente refinadas.
+O **BɅSTICOᴮᵀ** nasce da convicção de que conhecimento não se reduz a dados armazenados[cite: 7]. O conhecimento emerge quando as relações entre artefatos digitais tornam-se perceptíveis, formando estruturas coerentes capazes de serem observadas, interpretadas e continuamente refinadas[cite: 7].
 
-## 🏗️ Organização Física (Plana)
+## Organização Física (Plana)
 
 Para manter o escopo enxuto e de alta visibilidade, o projeto adota uma estrutura de documentação sem aninhamentos complexos:
 
