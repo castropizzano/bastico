@@ -15,9 +15,11 @@ O nome expressa visualmente a engenharia e o modelo mental do sistema:
 * **O Alfabeto Estilizado (A / Ʌ):** O uso do símbolo lambda invertido (Ʌ) representa o funil de refinamento computacional. Simboliza a transição onde dados dispersos são filtrados e purificados até emergir o conhecimento estruturado.
 * **O Selo Oficial (ᴮᵀ):** O sobrescrito **ᴮᵀ** evoca a estrutura de *Binary Tree* (Árvore Binária), a raiz matemática que sustenta a indexação e a rastreabilidade das informações. Ele constitui o selo oficial e o prefixo obrigatório de todo e qualquer módulo funcional (ex: `ᴮᵀObserve`).
 
-### Propósito de Marca
+### Propósito de Marca e Origem
 
-O **BɅSTICOᴮᵀ** existe com o propósito estrito de expandir a capacidade humana de compreender grandes volumes documentais através da explicitação visual e semântica de suas relações de dados. A marca se posiciona na contramão de ferramentas efêmeras de produtividade: ela busca a permanência, o rigor terminológico e a estabilidade conceitual a longo prazo.
+O **BɅSTICOᴮᵀ** nasceu de uma simbiose técnica: uma ferramenta idealizada por mente humana e co-criada ativamente através de Inteligência Artificial. Seu propósito existencial é sanear o caos digital acumulado pelo tempo — como acervos de pesquisas acadêmicas, arquivos de mestrado, projetos antigos e massas de dados desorganizadas em discos locais ou Google Drive. 
+
+A marca atua como um filtro purificador de legados. Ela prepara e estrutura bases de conhecimento caóticas para que se tornem repositórios funcionais, coerentes e logicamente consistentes, prontos para serem consumidos com máxima eficiência por LLMs avançadas (Claude, ChatGPT, Lovable, entre outros), eliminando alucinações e o desperdício de contexto.
 
 ## 2. Princípios de Engenharia
 
