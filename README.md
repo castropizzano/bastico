@@ -7,7 +7,7 @@
 
 ## Visão Geral
 
-O **BɅSTICOᴮᵀ** nasce da convicção de que conhecimento não se reduz a dados armazenados[cite: 7]. O conhecimento emerge quando as relações entre artefatos digitais tornam-se perceptíveis, formando estruturas coerentes capazes de serem observadas, interpretadas e continuamente refinadas[cite: 7].
+O **BɅSTICOᴮᵀ** nasce da convicção de que conhecimento não se reduz a dados armazenados. O conhecimento emerge quando as relações entre artefatos digitais tornam-se perceptíveis, formando estruturas coerentes capazes de serem observadas, interpretadas e continuamente refinadas.
 
 ## Organização Física (Plana)
 
