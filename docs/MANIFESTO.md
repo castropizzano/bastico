@@ -25,6 +25,7 @@ A marca atua como um filtro purificador de legados. Ela prepara e estrutura base
 
 Para garantir que o sistema permaneça leve, simples e estritamente objetivo, toda decisão técnica deve se submeter aos seguintes pilares filosóficos:
 
+* **Soberania de Dados (Local-First):** O processamento de acervos privados ocorre primariamente offline, na máquina do usuário. Prioriza-se a privacidade absoluta e o uso de recursos locais para superar as limitações de varredura de navegadores web.
 * **Pragmatismo sobre Burocracia:** A documentação existe para clareza técnica e alinhamento conceitual. Rejeita-se a proliferação de arquivos vazios ou redundantes.
 * **Baixo Acoplamento e Alta Coesão:** Cada módulo resolve um problema único e bem delimitado da jornada do conhecimento.
 * **Isolamento de Efeitos Colaterais:** Módulos de leitura pura (como o `ᴮᵀObserve`) são isolados de operações de escrita ou mutação de dados.
