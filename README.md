@@ -22,3 +22,5 @@ bastico/
     ├── ONTOLOGY.md    <-- Modelo conceitual e Léxico de desenvolvimento
     └── adr/
         └── 0001-documentation-precedes-code.md <-- A lei de engenharia do sistema
+---
+BɅSTICOBT // DOC_REF: README.md // VERSION: 1.0.0 // STATUS: STABLE
