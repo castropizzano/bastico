@@ -1,7 +1,6 @@
 # BɅSTICOᴮᵀ
 
-> **Knowledge. Refined.**  
-> Especificação Funcional · Módulo ᴮᵀObserve · Versão 1.0.0
+> **Knowledge. Refined.** > Especificação Funcional · Módulo ᴮᵀObserve · Versão 1.0.0
 
 ---
 
@@ -11,7 +10,7 @@ O **`ᴮᵀObserve`** é o componente de mapeamento passivo do ecossistema. Sua 
 
 ## 2. Restrições de Engenharia (Inegociáveis)
 
-* **Isolamento de Efeitos Colaterais:** O módulo opera em modo estritamente *read-only* em relação ao *Corpus*. É matematicamente proibido alterar, mover, renomear ou deletar qualquer arquivo ou metadado original do sistema de arquivos analisado.
+* **Isolamento de Efeitos Colaterais:** O módulo opera em modo estritamente *read-only* in relação ao *Corpus*. É matematicamente proibido alterar, mover, renomear ou deletar qualquer arquivo ou metadado original do sistema de arquivos analisado.
 * **Idempotência:** Executar o `ᴮᵀObserve` múltiplas vezes sobre o mesmo *Corpus* estático deve produzir sempre o mesmo *Inventory* de saída, sem duplicar registros ou corromper dados.
 * **Tratamento de Falhas:** Arquivos corrompidos, sem permissão de leitura ou links simbólicos quebrados não devem interromper o fluxo de execução; o módulo deve registrar o erro no inventário e prosseguir com o escaneamento.
 
@@ -41,5 +40,5 @@ O ciclo de processamento do módulo segue rigorosamente cinco etapas sequenciais
 ---
 
 ```text
-BɅSTICOᴮᵀ // DOC_REF: docs/OBSERVE.md // VERSION: 1.0.0 // STATUS: STABLE
+BɅSTICOᴮᵀ // DOC_REF: docs/SPEC_OBSERVE.md // VERSION: 1.0.0 // STATUS: STABLE
 ```
