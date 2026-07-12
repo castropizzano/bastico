@@ -42,3 +42,9 @@ O projeto adota um fluxo Git focado em pacotes coerentes de entrega para manter 
 1. **Veto a Commits Caóticos:** Não são permitidos commits isolados ou desorganizados de arquivos individuais diretamente na branch principal, exceto durante a inicialização do Cycle 000.
 2. **O Ciclo de Entrega:** O desenvolvimento de qualquer funcionalidade segue rigorosamente o fluxo: Desenvolvimento em branch local → Revisão do conjunto de artefatos → Abertura de Pull Request (PR) → Merge.
 3. **Casos de ADR:** Decisões que alterem profundamente as regras deste manifesto ou modifiquem a estrutura física plana do repositório exigiriam a criação de um novo registro formal na pasta `docs/adr/`.
+
+---
+
+```text
+BɅSTICOᴮᵀ // DOC_REF: docs/MANIFESTO.md // VERSION: 1.0.0 // STATUS: STABLE
+```
