@@ -23,16 +23,23 @@ O ciclo de processamento do módulo segue rigorosamente cinco etapas sequenciais
 [ Entrada: Caminho do Corpus ]
               │
               ▼
-    1. Descoberta (Varredura)
+     1. Descoberta (Varredura)
               │
               ▼
-    2. Identificação (Formatos)
+     2. Identificação (Formatos)
               │
               ▼
-    3. Criptografia (SHA-256)
+     3. Criptografia (SHA-256)
               │
               ▼
-    4. Extração (Metadados)
+     4. Extração (Metadados)
               │
               ▼
 [ Saída: Estruturação do Inventory ]
+```
+
+---
+
+```text
+BɅSTICOᴮᵀ // DOC_REF: docs/OBSERVE.md // VERSION: 1.0.0 // STATUS: STABLE
+```
