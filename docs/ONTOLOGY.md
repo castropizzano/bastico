@@ -32,3 +32,9 @@ Fica proibida a utilização de sinônimos arbitrários no código ou nos docume
 | Hash / Código | Fingerprint |
 | Dados / Propriedades | Metadata |
 | Relatório / Lista | Inventory |
+
+---
+
+```text
+BɅSTICOᴮᵀ // DOC_REF: docs/ONTOLOGY.md // VERSION: 1.0.0 // STATUS: STABLE
+```
