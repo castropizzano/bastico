@@ -1,7 +1,7 @@
 # BɅSTICOᴮᵀ
 
 > **Knowledge. Refined.**  
-> Ontologia e Léxico · Versão 1.0.0
+> Ontologia e Léxico · Versão 1.1.0
 
 ---
 
@@ -13,7 +13,7 @@ As entidades fundamentais do sistema definem o modelo de dados estável do proje
 * **Artifact:** Qualquer arquivo individual, isolado e identificável localizado dentro de um *Corpus*. Possui propriedades inerentes como caminho, tamanho e extensão.
 * **Fingerprint:** O hash criptográfico (SHA-256) gerado a partir do conteúdo binário exato de um *Artifact*, garantindo sua identificação única.
 * **Metadata:** O conjunto de informações estruturadas e atributos técnicos extraídos do *Artifact*.
-* **Inventory:** O artefato de saída consolidado que mapeia todos os *Artifacts* de um *Corpus*, vinculando suas respectivas *Fingerprints* e *Metadata*.
+* **Inventory:** O artefato de saída consolidado (obrigatoriamente estruturado em formato **JSON**) que mapeia todos os *Artifacts* de um *Corpus*, vinculando suas respectivas *Fingerprints* e *Metadata*.
 
 ## 2. Regras de Consistência Semântica
 
@@ -36,5 +36,5 @@ Fica proibida a utilização de sinônimos arbitrários no código ou nos docume
 ---
 
 ```text
-BɅSTICOᴮᵀ // DOC_REF: docs/ONTOLOGY.md // VERSION: 1.0.0 // STATUS: STABLE
+BɅSTICOᴮᵀ // DOC_REF: docs/ONTOLOGY.md // VERSION: 1.1.0 // STATUS: STABLE
 ```
