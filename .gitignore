@@ -1,0 +1,15 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Artefatos gerados localmente (Soberania de Dados — nunca versionar acervo do usuário)
+Inventory.json
+_QUARENTENA_BASTICO/
+bastico_test_corpus/
+
+# Sistema
+.DS_Store
