@@ -21,12 +21,17 @@ Para manter o escopo enxuto e de alta visibilidade, o projeto adota uma estrutur
 
 ```text
 bastico/
-├── README.md          <-- Este portal de entrada
-├── LICENSE.md         <-- Termos legais do projeto (MIT)
+├── README.md           <-- Este portal de entrada
+├── LICENSE.md          <-- Termos legais do projeto (MIT)
+├── requirements.txt    <-- Dependências Python do projeto
+├── .gitignore           <-- Exclusões de versionamento (dados do usuário e ambiente)
+├── observe.py           <-- Motor do módulo ᴮᵀObserve
+├── app.py               <-- Interface Flet e módulo de Quarentena
 └── docs/
-    ├── MANIFESTO.md   <-- Filosofia, Identity e Governança unificadas
-    ├── ONTOLOGY.md    <-- Modelo conceitual e Léxico de desenvolvimento
+    ├── MANIFESTO.md    <-- Filosofia, Identity e Governança unificadas
+    ├── ONTOLOGY.md     <-- Modelo conceitual e Léxico de desenvolvimento
     ├── SPEC_OBSERVE.md <-- Especificação Funcional do Módulo Base
+    ├── SPEC_QUARANTINE.md <-- Especificação Funcional do Módulo de Quarentena
     └── adr/
         ├── 0001-documentation-precedes-code.md <-- A lei de engenharia do sistema
         └── 0002-tech-stack-python-flet.md      <-- Decisão de Stack e Plataforma
@@ -34,9 +39,10 @@ bastico/
 
 ## Ecossistema de Módulos
 
-O desenvolvimento do software é incremental e dividido em três componentes focados:
+O desenvolvimento do software é incremental e dividido em componentes focados:
 
-* **`ᴮᵀObserve` (Ciclo Atual):** Mapeamento passivo. Abre um *Corpus*, descobre *Artifacts*, calcula hashes (*Fingerprints*), lê metadados e constrói um *Inventory*. Operação estritamente *read-only* com detecção nativa de duplicatas.
+* **`ᴮᵀObserve` (Ciclo Atual):** Mapeamento passivo. Abre um *Corpus*, descobre *Artifacts*, calcula hashes (*Fingerprints*), lê metadados e constrói um *Inventory*. Operação estritamente *read-only*, garantindo a base de identificação única que viabiliza etapas posteriores de resolução de duplicatas.
+* **Módulo de Quarentena (Ciclo Atual):** Camada de ação sobre o *Inventory* mapeado. Agrupa *Artifacts* por *Fingerprint* idêntica e permite o isolamento físico (*soft delete*) de redundâncias em diretório de quarentena, sem exclusão definitiva. Ver `docs/SPEC_QUARANTINE.md`.
 * **`ᴮᵀSynthesize` (Planejado):** Aplicação de ontologias e estruturação semântica sobre o inventário mapeado.
 * **`ᴮᵀQuery` (Planejado):** Mecanismo objetivo de busca, consulta e rastreabilidade do conhecimento generativo.
 
@@ -47,5 +53,5 @@ Este projeto é estritamente orientado ao conhecimento. Nenhuma linha de código
 ---
 
 ```text
-BɅSTICOᴮᵀ // DOC_REF: README.md // VERSION: 1.0.0 // STATUS: STABLE
+BɅSTICOᴮᵀ // DOC_REF: README.md // VERSION: 1.1.0 // STATUS: STABLE
 ```
